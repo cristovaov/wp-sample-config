@@ -1,1 +1,2 @@
-*In the beginning there was nothing...
+#### Sample WordPress Configuration
+*- for development purposes only.*

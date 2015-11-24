@@ -16,7 +16,7 @@ if ( file_exists( dirname( __FILE__ ).'/../site-conf.php' ) ){
   // define('WP_DEBUG', true);
 
   if ( !defined('ABSPATH') )
-    define('ABSPATH', dirname(__FILE__) . '../core/');
+    define('ABSPATH', dirname(__FILE__) . '/core/');
 
   // MySQL settings
   $table_prefix  = 'wp_';

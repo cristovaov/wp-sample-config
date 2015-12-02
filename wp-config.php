@@ -16,7 +16,7 @@ if ( file_exists( dirname( __FILE__ ).'/../site-conf.php' ) ){
   // define('WP_DEBUG', true);
 
   if ( !defined('ABSPATH') )
-    define('ABSPATH', dirname(__FILE__) . '/core/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
   // MySQL settings
   $table_prefix  = 'wp_';
@@ -38,7 +38,7 @@ if ( file_exists( dirname( __FILE__ ).'/../site-conf.php' ) ){
   define('NONCE_SALT',       'put your unique phrase here');
 
   // WP and Home url's
-  define( 'WP_SITEURL', 'http://' . $address . '/core' );
+  define( 'WP_SITEURL', 'http://' . $address );
   define( 'WP_HOME', 'http://' . $address );
 }
 
